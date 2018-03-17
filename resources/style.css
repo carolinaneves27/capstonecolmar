@@ -9,24 +9,25 @@ img {
 }
 
 p{
-  color: 	#808080;
-  font-size: 0.9rem;
+  color: 	rgb(150, 150, 150);
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 h1 {
-  color: rgb(62, 59, 64);
+  color: rgb(70, 70, 70);
   font-weight: bold;
   font-size: 2.25rem;
 }
 
 h2{
-  color: rgb(62, 59, 64);
+  color: rgb(70, 70, 70);
   font-weight: bold;
   font-size: 2rem;
 }
 
 h3{
-  color: rgb(62, 59, 64);
+  color: rgb(70, 70, 70);
   font-size: 1.25rem;
 }
 
@@ -46,10 +47,11 @@ header {
 /* banner */
 
 .banner {
+  max-width: 1600px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(204, 204, 204);
+  background-color: rgb(210, 210, 210);
 }
 
 .banner .image-content {
@@ -59,10 +61,6 @@ header {
 
 .banner .text-content {
   width: 40%;
-
-}
-
-.banner .text-content {
   margin-right: 8%;
 }
 
@@ -70,8 +68,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(62, 59, 64);
-  background-color: rgb(62, 59, 64);
+  border: 1px solid rgb(70, 70, 70);
+  background-color: rgb(70, 70, 70);
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 
@@ -84,8 +82,8 @@ header {
 /* main */
 
 .main {
-  display: inline-flex;
-
+  display: flex;
+  max-width: 1600px;
 }
 
 .main-info {
@@ -93,24 +91,89 @@ header {
   margin: 2rem 1.5rem;
 }
 
-.secondar-info {
-  width: 40%;
-}
-
-.text h2 {
+.main-text h2 {
   padding-top: 2rem;
   padding-bottom: 1.5rem;
 }
-.info{
+
+span {
+  font-size: 0.7rem;
+  color: rgb(150, 150, 150);
+}
+
+.secondary-info {
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.title p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.small-image {
+  height: auto;
+  width: 35%;
+  padding: 1rem;
+}
+
+.guest{
+  background-color: rgb(210, 210, 210);
+}
+
+a {
+  text-decoration: none;
+  color: #4682b4;
+}
+
+/* courses */
+
+.learning {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4.5rem;
+  background-color:	#e0ffff;
+  max-width: 1600px;
+
+}
+
+.learning h2 {
+  align-self: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.first-row {
   display: flex;
 }
 
-.small-img {
-  height: auto;
-  width: 35%;
-  margin: 1rem;
+.second-row {
+  display: flex;
 }
 
-.title{
-  width: 65%;
+.course {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.course img {
+  height: auto;
+}
+
+.course-text {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+.courses {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
