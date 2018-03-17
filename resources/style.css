@@ -8,6 +8,11 @@ img {
   height: 100%;
 }
 
+p{
+  color: 	#808080;
+  font-size: 0.9rem;
+}
+
 h1 {
   color: rgb(62, 59, 64);
   font-weight: bold;
@@ -16,8 +21,16 @@ h1 {
 
 h2{
   color: rgb(62, 59, 64);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h3{
+  color: rgb(62, 59, 64);
   font-size: 1.25rem;
 }
+
+
 /* header */
 
 header {
@@ -29,6 +42,7 @@ header {
   height: 2rem;
 }
 
+
 /* banner */
 
 .banner {
@@ -38,16 +52,18 @@ header {
   background-color: rgb(204, 204, 204);
 }
 
-.image-content {
+.banner .image-content {
   width: 60%;
   margin: 2rem 1.5rem;
+}
+
+.banner .text-content {
+  width: 40%;
 
 }
 
-.text-content {
-  width: 40%;
+.banner .text-content {
   margin-right: 8%;
-
 }
 
 .nav-btn {
@@ -63,4 +79,38 @@ header {
 .nav-btn a {
   color: white;
   text-decoration: none;
+}
+
+/* main */
+
+.main {
+  display: inline-flex;
+
+}
+
+.main-info {
+  width: 60%;
+  margin: 2rem 1.5rem;
+}
+
+.secondar-info {
+  width: 40%;
+}
+
+.text h2 {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.info{
+  display: flex;
+}
+
+.small-img {
+  height: auto;
+  width: 35%;
+  margin: 1rem;
+}
+
+.title{
+  width: 65%;
 }
