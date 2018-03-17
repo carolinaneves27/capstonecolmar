@@ -47,7 +47,14 @@ header {
 }
 
 .logo {
-  height: 2rem;
+  display: inline-flex;
+  align-items: center;
+  
+}
+
+.lion {
+  width: auto;
+  height: 3rem;
 }
 
 span {
@@ -174,12 +181,18 @@ a {
 }
 
 .course {
+  flex: 1;
   margin-left: 2rem;
   margin-bottom: 2rem;
   background-color: white;
 }
+
 .course img {
   height: auto;
+}
+
+img .computer {
+
 }
 
 .course-text {
