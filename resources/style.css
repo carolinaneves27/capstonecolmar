@@ -1,6 +1,7 @@
 html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 img {
@@ -38,6 +39,7 @@ h3{
 
 header {
   height: 4rem;
+  max-width: 1600px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   display: flex;
@@ -87,6 +89,7 @@ span {
     height: 2rem;
     align-self: center;
   }
+
 
 }
 
@@ -260,7 +263,19 @@ a {
       display: none;
     }
 
+    .title{ 
+      padding: 3rem 1rem;
+      font-size: 1.5rem;
+      align-self: flex-start;
+    }
 
+    .title h4 {
+      font-size:2rem;
+    }
+
+    .info {
+      background-color: white;
+    }
 
 
 }
@@ -314,17 +329,56 @@ img .computer {
   padding-bottom: 0.5rem;
 }
 
+.learning-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .learning {
+    background-color: white;
+  }
+  .first-row {
+    display: none;
+  }
+
+  .second-row {
+    display: none
+  }
+
+  .learning-mobile {
+    display: block;
+  
+  }
+
+  .section {
+    border: 1px solid rgb(210, 210, 210);
+    background-color: rgb(210, 210, 210);
+    margin: 0.5rem;
+    padding: 1rem 2rem 1.5rem 1rem;
+
+  }
+
+  .section p {
+    color: rgb(70, 70, 70);
+    font-size: 1.25rem;
+  }
+
+  
+
+}
+
+
 /* thesis */
 
 .thesis-exhibit h2 {
-  align-self: center;
+  text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .container {
   display: flex;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .urban {
@@ -348,6 +402,26 @@ video {
   margin-bottom: 2rem;
 }
 
+@media only screen and (max-width: 480px) {
+
+  .other {
+    display: none;
+  }
+
+  .video-text {
+    display: none;
+  }
+
+  .container {
+    margin-top: 0;
+  }
+
+  .urban {
+    width: 100%;
+    margin: 0;
+  }
+}
+
 /* footer */
 
 footer {
@@ -359,4 +433,10 @@ footer {
 
 .copyright p {
   font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .terms {
+    display: none;
+  }
 }
